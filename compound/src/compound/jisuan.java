@@ -60,7 +60,7 @@ JTextField textField_2,JTextField textField_3){
 
 			if(p<=0||i<=0||F<=0){
 				n = 0;
-				JOptionPane.showMessageDialog(null,"请正确输入！" , "输入错误", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null,"请输入正数！" , "输入错误", JOptionPane.ERROR_MESSAGE);
 			}
 			
 			String s = String.valueOf(n); 
@@ -81,7 +81,7 @@ JTextField textField_2,JTextField textField_3){
 			p = F/Math.pow((1+i),n);
 			if(n<=0||i<=0||F<=0){
 				p = 0;
-				JOptionPane.showMessageDialog(null,"请正确输入！" , "输入错误", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null,"请输入正数！" , "输入错误", JOptionPane.ERROR_MESSAGE);
 			}
 			
 			String s = String.valueOf(p); 
@@ -102,7 +102,7 @@ JTextField textField_2,JTextField textField_3) {
 			F=p*Math.pow((1+i),n);
 			if(p<=0||i<=0||n<=0){
 				F = 0;
-				JOptionPane.showMessageDialog(null,"请正确输入！" , "输入错误", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null,"请输入正数！" , "输入错误", JOptionPane.ERROR_MESSAGE);
 			}
 			
 			String s = String.valueOf(F); 
@@ -126,12 +126,12 @@ JTextField textField_2,JTextField textField_3) {
 			F=(float)p*i*n;
 			if(p<=0||i<=0||n<=0){
 				F=0;
-				JOptionPane.showMessageDialog(null,"请正确输入！" , "输入错误", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null,"请输入正数！" , "输入错误", JOptionPane.ERROR_MESSAGE);
 			}
 			F = p +F;
 		} catch (Exception e) {
 			// TODO: handle exception
-			JOptionPane.showMessageDialog(null,"请正确输入！" , "输入错误", JOptionPane.ERROR_MESSAGE); 
+			JOptionPane.showMessageDialog(null,"请输入正数！" , "输入错误", JOptionPane.ERROR_MESSAGE); 
 		}
 		
 		
